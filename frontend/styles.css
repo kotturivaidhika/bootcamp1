@@ -1,6 +1,32 @@
 .card h3{
     color:rgb(98, 123, 213);
 }
+.navbar {
+    
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border:2px solid black;
+    padding: 10px;
+    background-color:White;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+    text-decoration: underline;
+}
 .card
 {
     border-style: solid;
@@ -16,10 +42,13 @@
     margin-top:70px;
     margin-left: auto;
     margin-right: auto;
+    background-color:White;
 }
 .body{
-    padding: 10px;
+    margin:0px;
+    padding:0px;
     align-items: center;
+    background-color:antiqueWhite;
 }
 .card img{
     width: 100%;
@@ -37,6 +66,7 @@
     padding:10px;
     margin:8px;
     border-radius: 12px;
+    box-shadow: 0 2px #999;
 }
 .card button:hover{
     background-color: #3e628e;
